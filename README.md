@@ -12,7 +12,7 @@ Repositório com exercícios de revisão utilizando a linguagem JavaScript.
 
 ## :floppy_disk: Clonar repositório
 
-```git clone https://github.com/pamjdeveloper/exercicios-revisao-javascript.git```
+```git clone https://github.com/pauloamjdeveloper/exercicios-revisao-javascript.git```
 
 ## Author
 :boy: [Paulo Alves](https://github.com/pamjdeveloper)
