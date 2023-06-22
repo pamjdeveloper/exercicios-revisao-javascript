@@ -15,4 +15,4 @@ Repositório com exercícios de revisão utilizando a linguagem JavaScript.
 ```git clone https://github.com/pauloamjdeveloper/exercicios-revisao-javascript.git```
 
 ## Author
-:boy: [Paulo Alves](https://github.com/pamjdeveloper)
+:boy: [Paulo Alves](https://github.com/pauloamjdeveloper)
