@@ -1,0 +1,66 @@
+:root{
+    --base-color: #05CE19;
+    --reset-color: #F80000;
+    --text-color: #FFFFFF;
+}
+
+body{
+    background-image: radial-gradient(circle, #06C1FA 0%, #343B3B 100%);
+}
+
+h1{
+    text-align: center;
+    color: var(--text-color);
+}
+
+main{
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+}
+
+#formFlex{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#calcular{
+    width: 95px;
+    height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--base-color);
+}
+
+#limpar{
+    width: 94px;
+    height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--reset-color);
+}
+
+#txtEtanol{
+    width: 95px;
+    height: 20px;
+}
+
+#txtGasolina{
+    width: 95px;
+    height: 20px;
+}
