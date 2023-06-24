@@ -1,0 +1,33 @@
+:root {
+    --reset-color: #F31818;
+    --element-color: #10B510;
+    --text-color: #FFFFFF;
+    --color-title: #038AF8;
+}
+
+.titulo {
+    color: var(--color-title);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes {
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#jogar {
+    background-color: var(--element-color);
+    color: var(--text-color);
+}
+
+#reiniciar {
+    background-color: var(--reset-color);
+    color: var(--text-color);
+}
