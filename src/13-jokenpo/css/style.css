@@ -1,0 +1,94 @@
+:root{
+    --primary-color: #00BFFF;
+    --element-color: #32CD32;
+    --text-color: #FFFFFF;
+    --reset-color: #FF4500;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    width: 95vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    width: 250px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.textJokenpo{
+    font-weight: 900;
+}
+
+#placar {
+    text-align: center;
+    
+    font-weight: 700;
+    color: var(--element-color);
+}
+
+.formJokenpo {
+    text-align: center;
+}
+
+#btnJogar {
+    width: 100px;
+    height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: var(--element-color);
+    background-color: var(--text-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnJogar:hover{
+    width: 100px;
+    height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: var(--text-color);
+    background-color: var(--element-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnReset {
+    width: 100px;
+    height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: var(--reset-color);
+    background-color: var(--text-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnReset:hover {
+    width: 100px;
+    height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: var(--text-color);
+    background-color: var(--reset-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

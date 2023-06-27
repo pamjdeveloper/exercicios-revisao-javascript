@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="icon" href="../../assets/icone/js.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Jokenpô</h1>
+
+            <div class="formJokenpo">
+                <h3>Jogador:</h3>
+                <img src="../../assets/imagens/pedra.png" alt="Pedra">
+                <img src="../../assets/imagens/papel.png" alt="Papel">
+                <img src="../../assets/imagens/tesoura.png" alt="Tesoura">
+            </div>
+
+            <form class="formJokenpo" name="frmJokenpo">
+                <input class="textJokenpo" type="radio" name="grupo" id="pedra">Pedra
+                <input class="textJokenpo" type="radio" name="grupo" id="papel">Papel
+                <input class="textJokenpo" type="radio" name="grupo" id="tesoura">Tesoura
+                <p>
+                    <input id="btnJogar" type="button" value="JOGAR" onclick="jogar()">
+                    <input id="btnReset" type="reset" value="RESET" onclick="reiniciar()">
+                </p>
+            </form>
+
+            <hr>
+
+            <div class="formJokenpo">
+                <h3>Computador:</h3>
+                <img src="../../assets/imagens/pc.png" alt="PC" id="pc">
+            </div>
+
+            <hr>
+
+            <h3 id="placar"></h3>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
