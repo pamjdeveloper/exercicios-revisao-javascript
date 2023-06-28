@@ -1,0 +1,72 @@
+:root{
+    --element-color: #000000;
+    --button-color: #6ECf56;
+    --text-color: #FFFFFF;
+    --reset-color: #F73904;
+}
+
+body{
+    background-image: radial-gradient(circle, #323334 0%, #7B8286 100%);
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+label{
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+div {
+    min-width: 300px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+input {
+    width: 100%;
+    display: block;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+#salvar{
+    background-color: var(--text-color);
+    color: var(--button-color);
+}
+
+#salvar:hover {
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
+
+#cancelar{
+    background-color: var(--text-color);
+    color: var(--reset-color);
+}
+
+#cancelar:hover {
+    background-color: var(--reset-color);
+    color: var(--text-color);
+}

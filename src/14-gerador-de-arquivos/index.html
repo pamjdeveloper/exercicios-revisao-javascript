@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Arquivos</title>
+    <link rel="icon" href="../../assets/icone/js.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <h1>Salvar Texto em Arquivo</h1>
+        <div>
+            <label for="titulo">Nome do arquivo</label>
+            <input type="text" id="titulo" placeholder="Nome do Arquivo">
+        </div>
+        <div>
+            <label for="texto">Texto</label>
+            <textarea id="texto" placeholder="Digite um texto para salva-lo"></textarea>
+        </div>
+        <div>
+            <label for="cars">Selecione o formato do arquivo:</label>
+            
+            <select id="formato">
+                <option value=".txt">.txt</option>
+                <option value=".doc">.doc</option>
+                <option value=".pdf">.pdf</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="salvar" onclick="salvar()">Salvar</button>
+            <button id="cancelar" onclick="cancelar()">Cancelar</button>
+        </div>
+
+    <script src="js/FileSaver.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
