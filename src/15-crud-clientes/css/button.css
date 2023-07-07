@@ -1,0 +1,55 @@
+:root {
+    --button-primary-color: #00BFFF;
+    --button-success-color: #13CE66;
+    --button-danger-color: #FF4949;
+    --button-none-color: #00000055;
+    --element-text-color: #FFFFFF;
+    --element-color: #000000;
+}
+
+.button{
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: black;
+    color: var(--element-text-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+}
+
+.button.blue{
+    background-color: var(--button-primary-color);
+}
+
+button.green{
+    background-color: var(--button-success-color);
+}
+
+button.red{
+    background-color: var(--button-danger-color);
+}
+
+.button:hover{
+    box-shadow: inset 200px 0 0 var(--none-color);
+}
+
+@media(max-width:480px){
+    .button.mobile{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+    .button.mobile::before{
+        content: "+";
+        color: var(--element-color);
+        font-size:2rem;
+        width:100%;
+        height:100%;
+    }
+}
