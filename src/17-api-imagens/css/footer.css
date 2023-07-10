@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #00E5EE;
+    --secondary-color: #333;
+    --element-color: #FFF59D;
+    --base-color: #111;
+    --none-color: #000;
+    --text-color: #FFF;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--base-color);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 6px;
+    height: 100px;
+}
+
+footer .social {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transition: all 0.5s;
+}
+
+footer a:hover {
+    background-color: var(--primary-color);
+    color: var(--none-color);
+}
+
+footer .text {
+    color: var(--text-color);
+    font-style: italic;
+}
