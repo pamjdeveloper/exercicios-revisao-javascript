@@ -25,9 +25,27 @@ const convertCoin = (value, coin) => {
 
 const convert = () => {
   const value = parseFloat(document.getElementById("input-value").value);
+  validateInputValue(value);
+
   const coin = document.getElementById("select-coins").value;
+  validateInputCoin(coin);
+
   const convertValue = convertCoin(value, coin);
   document.getElementById("result").innerHTML = `$ ${convertValue}`;
+};
+
+const validateInputValue = (value) => {
+  if (isNaN(value) || value <= 0) {
+    alert("Por favor, insira um valor válido maior que zero.");
+    return;
+  }
+};
+
+const validateInputCoin = (coin) => {
+  if (coin === "") {
+    alert("Por favor, selecione uma moeda.");
+    return;
+  }
 };
 
 const reset = () => {
