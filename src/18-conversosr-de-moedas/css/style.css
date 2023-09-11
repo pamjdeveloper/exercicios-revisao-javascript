@@ -1,0 +1,151 @@
+:root{
+    --base-color: #000000;
+    --element-color: #00E5EE;
+    --reset-color: #FFFFFF;
+}
+
+body{
+    background-image: radial-gradient(circle, #B2ADAD 0%, #171718 100%);
+}
+
+main{
+    display: flex;
+    width: 95vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: var(--base-color);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--element-color);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 1.9rem sans-serif;
+    border-bottom: solid 5px var(--element-color);
+    color: var(--element-color);
+    margin-bottom: 10px;
+}
+
+.input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--element-color);
+}
+
+.input label{
+    font: bold 1.5rem sans-serif;
+    color: var(--element-color);
+}
+
+.input input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem sans-serif;
+    text-align: center;
+}
+
+.input-coins select {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem sans-serif;
+    text-align: center;
+}
+
+.input-coins label{
+    font: bold 1.5rem sans-serif;
+    color: var(--element-color);
+}
+
+.label-coin {
+    margin-right: 10px;
+}
+
+.input-select {
+    margin-right: 2px;
+}
+
+.input-focus:focus {
+    border: 3px solid var(--element-color);
+    outline: none;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem sans-serif;
+    background: var(--base-color);
+    color: var(--element-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--element-color);
+}
+
+button:hover {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem sans-serif;
+    background: var(--element-color);
+    color: var(--base-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 2px;
+}
+
+.space-buttons {
+    margin-top: 10px;
+}
+
+.cancel-button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem sans-serif;
+    background: var(--base-color);
+    color: var(--element-color);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.output{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    font: italic 1.2rem sans-serif;
+    box-shadow: 0px 0px 10px var(--element-color);
+    background: var(--element-color);
+    color: var(--base-color);
+    padding: 10px;
+    box-sizing: border-box;
+    user-select: none;
+}

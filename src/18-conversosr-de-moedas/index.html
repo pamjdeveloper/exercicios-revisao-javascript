@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="icon" href="../../assets/icone/js.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="title">Conversor de Moedas</div>
+    
+            <div class="input">
+                <label>Valor:</label>
+                <input type="text" class="input-focus" id="input-value">
+            </div>
+    
+            <div class="input-coins">
+                <label class="label-coin">Moeda:</label>
+                <select class="input-focus input-select" id="select-coins">
+                    <option></option>
+                    <option value="dollar">Dollar</option>
+                    <option value="euro">Euro</option>
+                </select>
+            </div>
+    
+            <div class="buttons">
+                <div class="space-buttons">
+                    <button id="convert-button">Converter</button>
+                </div>
+                <div class="space-buttons">
+                    <button id="cancel-button">Cancelar</button>
+                </div>
+            </div>
+    
+            <div class="output">
+                <span></span>
+                <p id="result"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
