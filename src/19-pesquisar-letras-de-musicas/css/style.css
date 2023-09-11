@@ -1,0 +1,26 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    width: 230px;
+}
+
+.title-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#artist, 
+#song,
+#btn-search,
+#btn-cancel {
+    border-radius: 8px;
+}
+
+label {
+    font-weight: 600;
+}
