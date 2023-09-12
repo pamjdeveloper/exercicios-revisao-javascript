@@ -7,6 +7,7 @@
     <link rel="icon" href="../../assets/icone/js.ico">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 
@@ -19,16 +20,16 @@
             <form id="lyrics-form">
                 <div class="row">
                     <div class="col-md-6">
-                        <label for="artista">Artista</label>
+                        <label for="artista" class="labels">Artista</label>
                         <input type="text" id="artist" class="form-control">
                     </div>
                     <div class="col-md-6">
-                        <label for="musica">Música</label>
+                        <label for="musica" class="labels">Música</label>
                         <input type="text" id="song" class="form-control">
                     </div>
                 </div>
                 <div class="col-md-12 mt-2 btn-group">
-                    <button id="btn-search" class="btn btn-outline-success buttons me-4">Pesquisar</button>
+                    <button id="btn-search" class="btn buttons me-4">Pesquisar</button>
                     <button id="btn-cancel" class="btn btn-outline-dark buttons">Cancelar</button>
                 </div>
             </form>
@@ -39,7 +40,12 @@
         </div>
 
         <div class="row mt-2">
-            <pre class="mt-4" id="lyrics"></pre>
+            <pre class="mt-4 animation-2s result-lyrics" id="lyrics">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, 
+                impedit. Corrupti saepe distinctio obcaecati nemo veniam consectetur 
+                repellendus, explicabo voluptas praesentium perspiciatis aut officiis 
+                ratione dolorem perferendis? Aliquid, debitis rerum!
+            </pre>
         </div>
     </div>
     

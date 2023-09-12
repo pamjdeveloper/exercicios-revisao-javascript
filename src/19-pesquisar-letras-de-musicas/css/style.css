@@ -1,7 +1,21 @@
+:root{
+    --base-color: #1E90FF;
+    --success-color: #05E43D;
+    --cancel-color: #FF4500;
+    --neutral-color: #FFFFFF;
+    --neutral-color2: #F6F4F4;
+}
+
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--base-color);
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
 }
 
 .buttons {
@@ -9,6 +23,18 @@
 }
 
 .title-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--base-color);
+}
+
+.animation-2s {
+    animation: bounceIn;
+    animation-duration: 2s;
+}
+
+.result-lyrics {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +47,39 @@
     border-radius: 8px;
 }
 
+#btn-search {
+    background-color: var(--neutral-color);
+    color: var(--success-color);
+    font-weight: 600;
+    border:solid 1px;
+}
+
+#btn-search:hover {
+    background-color: var(--success-color);
+    color: var(--neutral-color);
+    font-weight: 600;
+    border:solid 1px;
+}
+
+#btn-cancel {
+    background-color: var(--neutral-color);
+    color: var(--cancel-color);
+    font-weight: 600;
+    border:solid 1px;
+}
+
+#btn-cancel:hover {
+    background-color: var(--cancel-color);
+    color: var(--neutral-color);
+    font-weight: 600;
+    border:solid 1px;
+}
+
 label {
     font-weight: 600;
+    color: var(--base-color);
+}
+
+div {
+    background-color: var(--neutral-color2);
 }
