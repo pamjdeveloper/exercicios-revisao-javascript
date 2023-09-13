@@ -26,12 +26,20 @@ Observação: esse projeto pode conter novas implementações de exercícios.
 - [Desafio CRUD](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/15-crud-clientes)
 - [TODO List](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/16-todo-list)
 - [API de Imagens](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/17-api-imagens)
+- [Conversor de Moedas](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/18-conversosr-de-moedas)
+- [API Letras de Músicas](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/19-pesquisar-letras-de-musicas)
+- [API do ChatGPT](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/20-api-chatgpt)
 
 ## :wrench: Recursos Utilizados
 
-- [HTML5](https://www.w3schools.com/html/)
-- [CSS3](https://www.w3schools.com/css/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- ``HTML5``
+- ``CSS3``
+- ``JavaScript``
+- ``Animate.css``
+- ``Bootstrap 5``
+- ``API Pixabay``
+- ``API lyrics.ovh``
+- ``API OpenAI``
 
 ## :floppy_disk: Clonar repositório
 
