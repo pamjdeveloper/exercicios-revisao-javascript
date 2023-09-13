@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API ChatGPT</title>
+    <link rel="icon" href="../../assets/icone/js.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h2>Formulário</h2>
+        </div>
+    
+        <div class="row">
+            <form id="form-question-chat">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="input-question" class="form-label title-question">Pergunta:</label>
+                        <textarea class="form-control" id="input-question" rows="5" cols="50" placeholder="Digite a sua pergunta"></textarea>
+                    </div>
+                    <div class="col mb-2">
+                        <input type="submit" class="buttons btn me-4" id="btn-question-chat" value="Enviar">
+                        <input type="reset" class="buttons btn" id="btn-reset-chat" value="Cancelar">
+                    </div>
+                </div>
+                <hr>
+            </form>
+            <div class="mt-2">
+                <p class="animation-2s title-question" id="question"></p>
+            </div>
+    
+            <div class="mt-2">
+                <p class="animation-2s" id="response"></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
