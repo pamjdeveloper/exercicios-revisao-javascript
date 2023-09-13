@@ -1,5 +1,5 @@
 const formQuestionChat = document.getElementById("form-question-chat");
-const OPEN_API_KEY = "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";
+const OPEN_API_KEY = "sua chave";
 
 if (OPEN_API_KEY === "") {
     document.getElementById("question").innerHTML = "<span style='color: #FF4500;'>Necessário usar uma chave válida!</span>";
