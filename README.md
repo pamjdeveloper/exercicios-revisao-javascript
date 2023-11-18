@@ -1,13 +1,24 @@
 <h1 align="center">Revisão JavaScript</h1>
 
+<p align="center">
+  <a href="https://www.w3schools.com/html/"><img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://www.w3schools.com/css/"><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /></a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a>
+</p>
+
 ## :computer: Projeto
 
-Repositório com uma lista de exercícios referente a aplicações web, o objetivo deste projeto e fazer revisões de conceitos envolvendo as tecnologias de desenvolviemnto web 
-[HTML5](https://www.w3schools.com/html/), [CSS3](https://www.w3schools.com/css/) e  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).
+Repositório com uma lista de exercícios referente a aplicações web, o objetivo deste projeto e fazer revisões de conceitos envolvendo as tecnologias de desenvolviemnto web `HTML`, `CSS3` e `JavaScript`.
 
 Observação: esse projeto pode conter novas implementações de exercícios.
 
-## :page_facing_up: Lista de Exercícios
+## :white_check_mark: Decisões Técnicas
+
+O foco desses projetos é a utlização da linguagem `JavaScript` para solucionar os desafios, foram aplicados alguns estilos com o objetivo de ter no mínimo interfaces apresentáveis.
+
+Na organização dos projetos optei em criar os arquivos `script.js` e `style.css` em pastas separadas dos aquivos `index.html`, além das boas práticas isso facilita em ajustes nos arquivos e futuras implementações caso seja necessário.
+
+## :page_facing_up: Links com respostas dos desafios
 
 - [Calculadora de IMC](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/01-calculadora-de-imc)
 - [Desafio da Lâmpada](https://github.com/pauloamjdeveloper/exercicios-revisao-javascript/tree/master/src/02-ligar-desligar-lampada)
@@ -43,7 +54,12 @@ Observação: esse projeto pode conter novas implementações de exercícios.
 
 ## :floppy_disk: Clonar repositório
 
-```git clone https://github.com/pauloamjdeveloper/exercicios-revisao-javascript.git```
+```bash
+git clone  https://github.com/pauloamjdeveloper/exercicios-revisao-javascript.git
+```
 
-## Author
-:boy: [Paulo Alves](https://github.com/pauloamjdeveloper)
+## :boy: Author
+
+<a href="https://github.com/pauloamjdeveloper"><img src="https://avatars.githubusercontent.com/u/137198048?v=4" width=70></a>
+[Paulo Alves](https://github.com/pauloamjdeveloper)
+
